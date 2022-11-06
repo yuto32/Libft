@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   libft.h                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: yshimomu <yshimomu@student.42tokyo.jp>     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/11/06 12:18:41 by yshimomu          #+#    #+#             */
+/*   Updated: 2022/11/06 12:35:36 by yshimomu         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef LIBFT_H
 # define LIBFT_H
 
@@ -28,7 +40,7 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len);
 char	*ft_itoa(int n);
 int		ft_tolower(int c);
 char	*ft_strmapi(const char *s, char (*f)(unsigned int, char));
-void	ft_striteri(char *s, void(*f)(unsigned int, char *));
+void	ft_striteri(char *s, void (*f)(unsigned int, char *));
 char	*ft_strchr(const char *s, int c);
 void	ft_putstr_fd(char *s, int fd);
 int		ft_toupper(int c);
